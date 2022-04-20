@@ -9,15 +9,15 @@
 
 ## Get presentation slides url
 
-* in the bbb room must be a presentation slide viewable (no screen share)
+* in the bbb room must be a presentation slide present (no screen share)
 * right-click on the current slide, and select `Copy Image Link` (Firefox)
-* remove trailing number from url, that the url end on `.../svg/`
+* remove trailing number from url, that the url ends on `.../svg/`
 
 ## Notes
 
 * url should end with a slash
 * first slide has the index `1`
-* start/end slide arguments are optional, implies trying to get all slides
+* start/end slide arguments are optional
 * start slide argument but no end slide argument means starting at provided index and getting all slides after that
 * generated pdf will appear as `out.pdf` next to the script
 
