@@ -25,11 +25,11 @@
 
 ```bash
 # getting all slides
-./main.sh wget https://example.com/bigbluebutton/presentation/<long id>/svg/
+./main.sh https://example.com/bigbluebutton/presentation/<long id>/svg/
 
 # getting the first 10 slides
-./main.sh wget https://example.com/bigbluebutton/presentation/<long id>/svg/ 1 10
+./main.sh https://example.com/bigbluebutton/presentation/<long id>/svg/ 1 10
 
 # getting all slides starting at slide 10
-./main.sh wget https://example.com/bigbluebutton/presentation/<long id>/svg/ 10
+./main.sh https://example.com/bigbluebutton/presentation/<long id>/svg/ 10
 ```
